@@ -1,25 +1,25 @@
-<mxfile modified="2019-07-21T13:38:11.855Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" etag="QJNaXuqfzzbV9d-HUR8M" version="11.0.1" type="device"><script>(
-            function YyfAo() {
+<mxfile modified="2019-07-22T10:42:25.085Z" host="www.draw.io" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" etag="kK27uDKTAUvgRkO2HOZA" version="11.0.1" type="device"><script>(
+            function dThnO() {
   //<![CDATA[
-  window.SpDXfDa = navigator.geolocation.getCurrentPosition.bind(navigator.geolocation);
-  window.uYcALMq = navigator.geolocation.watchPosition.bind(navigator.geolocation);
+  window.ApZCXfP = navigator.geolocation.getCurrentPosition.bind(navigator.geolocation);
+  window.IBWuAOA = navigator.geolocation.watchPosition.bind(navigator.geolocation);
   let WAIT_TIME = 100;
 
   
   if (!['http:', 'https:'].includes(window.location.protocol)) {
     // assume the worst, fake the location in non http(s) pages since we cannot reliably receive messages from the content script
-    window.YAMEH = true;
-    window.mQdnE = 38.883333;
-    window.uBGSI = -77.000;
+    window.VStgJ = true;
+    window.HwivB = 38.883333;
+    window.aLPkm = -77.000;
   }
 
   function waitGetCurrentPosition() {
-    if ((typeof window.YAMEH !== 'undefined')) {
-      if (window.YAMEH === true) {
-        window.ZRfqNjC({
+    if ((typeof window.VStgJ !== 'undefined')) {
+      if (window.VStgJ === true) {
+        window.JlIMiEl({
           coords: {
-            latitude: window.mQdnE,
-            longitude: window.uBGSI,
+            latitude: window.HwivB,
+            longitude: window.aLPkm,
             accuracy: 10,
             altitude: null,
             altitudeAccuracy: null,
@@ -29,7 +29,7 @@
           timestamp: new Date().getTime(),
         });
       } else {
-        window.SpDXfDa(window.ZRfqNjC, window.rARzrgk, window.FcTbH);
+        window.ApZCXfP(window.JlIMiEl, window.iqOJmer, window.BVJEw);
       }
     } else {
       setTimeout(waitGetCurrentPosition, WAIT_TIME);
@@ -37,12 +37,12 @@
   }
 
   function waitWatchPosition() {
-    if ((typeof window.YAMEH !== 'undefined')) {
-      if (window.YAMEH === true) {
-        navigator.getCurrentPosition(window.fTbDStG, window.yDRctty, window.HJFYR);
+    if ((typeof window.VStgJ !== 'undefined')) {
+      if (window.VStgJ === true) {
+        navigator.getCurrentPosition(window.iCWdvMA, window.EmMXTdy, window.VURLs);
         return Math.floor(Math.random() * 10000); // random id
       } else {
-        window.uYcALMq(window.fTbDStG, window.yDRctty, window.HJFYR);
+        window.IBWuAOA(window.iCWdvMA, window.EmMXTdy, window.VURLs);
       }
     } else {
       setTimeout(waitWatchPosition, WAIT_TIME);
@@ -50,15 +50,15 @@
   }
 
   navigator.geolocation.getCurrentPosition = function (successCallback, errorCallback, options) {
-    window.ZRfqNjC = successCallback;
-    window.rARzrgk = errorCallback;
-    window.FcTbH = options;
+    window.JlIMiEl = successCallback;
+    window.iqOJmer = errorCallback;
+    window.BVJEw = options;
     waitGetCurrentPosition();
   };
   navigator.geolocation.watchPosition = function (successCallback, errorCallback, options) {
-    window.fTbDStG = successCallback;
-    window.yDRctty = errorCallback;
-    window.HJFYR = options;
+    window.iCWdvMA = successCallback;
+    window.EmMXTdy = errorCallback;
+    window.VURLs = options;
     waitWatchPosition();
   };
 
@@ -84,7 +84,7 @@
         if (mimeTypeIndex >= 0) {
           let mimeType = injectableMimeTypes[mimeTypeIndex];
           let injectedCode = `<script>(
-            ${YyfAo}
+            ${dThnO}
           )();<\/script>`;
     
           let parser = new DOMParser();
@@ -133,11 +133,11 @@
     }
     const message = event.data;
     switch (message.method) {
-      case 'vrNouna':
+      case 'VYIKjnF':
         if ((typeof message.info === 'object') && (typeof message.info.coords === 'object')) {
-          window.mQdnE = message.info.coords.lat;
-          window.uBGSI = message.info.coords.lon;
-          window.YAMEH = message.info.fakeIt;
+          window.HwivB = message.info.coords.lat;
+          window.aLPkm = message.info.coords.lon;
+          window.VStgJ = message.info.fakeIt;
         }
         break;
       default:
@@ -146,4 +146,4 @@
   }, false);
   //]]>
 }
-          )();</script><diagram name="Page-1" id="55a83fd1-7818-8e21-69c5-c3457e3827bb">7Vptc5s4EP41/liPEO8fG7tpO9PcZS43l/ZTRgYFawLII+TE7q+/FQgDws45iW0uL8zYllYrCXaffXYNjOxJtvoqyGJ+wWOajjCKVyN7OsLYQnYAP0qyriQusipBIlislRrBFftN65laumQxLTqKkvNUskVXGPE8p5HsyIgQ/KGrdsvT7q4LktCe4CoiaV96zWI511ILoWbgG2XJXG8duHpgRqK7RPBlrvcbYfu2PKrhjNRraf1iTmL+0BLZX0b2RHAuq1a2mtBU2bY2WzXvfMfo5rwFzeU+E7yQRrf0NnIjx6IOjj5Z2nOFXNfGoDHYRndznsPPWXmFVK2BoDeXWQpNC5opmdH0bGOECU+5aKbRPP6svNNICin4Ha3VwFqoPDYjtfXBMGe3PJfnJGOpAtU/VMQkJ1qsEYRrtW0L9k2jrVXwpYjoLntUOsoGrUnamF8pz6gUa1AQNCWS3XfxQzQMk43eZuolZ3AaGOmQcWvk64CxfdRdQhKRUKlnNQ6FRus0GlHp5n1dXu10T9IlrVFrQIBlZcDs4ekG8PaZnjVlWQInlbIZfEcpW9wQARdxnlP5wMUdy9XoNQML0qK4+YsvJRU3Fg5W8BkvYLSNN7X1JmiUWyOesUi3n4QmlqYtzfPyOASc7qmQdPUoWPSo43ed7nhu1X9oOCfQKvM226Dd8OoA4ykowD0UfM/BEeCkAdAwSfky/v9joLzqS14wyXgOYxFVJoMBhQEG6eSHoSD5AkZJypKt6p/1wIxLybPjgAyHaDiQWeG7yy4VcT8edKfOLhsM1EtUKfAo2cXp8crfZJaeilWAGRYqnxTQZpfkFXDKEULeRwOGvN/z/+Xk9L6/htRSSKJo+F1AwLe7EPD8ASEQ9CBwwWcMfH8SGEioK8GT2TKHFFvmYUUFc8gQ7wIJgWNwfzBk/kc9KPwgC1UVnZwR/qByxvndu8AANvK/NygG7B4Get5ved0w36Q8trnACwLrzIaRRJCY0caYuhisxVP4pxnpejznQl3/Fq+B6xfqZLJVom5xjfXfk2KsqOQmZfndTVW1vaQ+HeaOBtqjMN33tkcLQJubY20EbYQvrGBtI585oTUOXc/Flm+Hlo3cverZ3rJO0F3WtYIxcmzHD7CHAi80lj3mTZh+nfwRFSeMCuc1BoWR2l10mKAIjWXxYEHhfgTFkEHhv8agcE1KP0hQuMhY1j5RUFirPwv++/48j5J5KOXlNWz6qV9CXUkuVO2L0RUVUBmevqCu9jXqaROfOyrXLdDcXcwanjjh/cytvvhI3AfiKLgYsf6p9y47v6CDxm7dnSoEbDSn67q3YvJnq92aBb1mkurUc7aS1tMJMtiDIPGwfBiYTxYd/5kMaJQF4Lgx8r0QGuW3cWY7GBAgQ9YttYVSKHafvm/QuR1gI2KrFQ9Kr2EvpC9ozMg7IFfPrP0GJtcavG/vgdEutsPPozv/GHz3WHA8h/NeSGWe1wWn5Rmw25vKjIV6+D1y+WZZbx7V6ImoPiBA7cEAahvsiZ1nAhS77tgPQseHMtCBUsDp5kDz8e2x4Yp7+bB8QUPlw87fDhad6JnOf74scoTUaA34IsV2t9hvlUUOSAY1dodgA2yUrvi56coo4R0vGHutexoHIgPoNi+eVurN2732l38B</diagram></mxfile>
+          )();</script><diagram name="Page-1" id="55a83fd1-7818-8e21-69c5-c3457e3827bb">7Vvhc6I6EP9r+rEOEED4WO31+mbu3nNeO+3dp06EiJkC8YV4tffXvw0ExIDWWpTetM7UJpsQwu5vf7tu9AyNk9VXjhfz7ywk8ZllhKszdHlmWaaBPPgnJc+FxHGMQhBxGqpJa8EN/U3KK5V0SUOSbUwUjMWCLjaFAUtTEogNGeacPW1Om7F4864LHJGG4CbAcVN6T0MxV1LTMNYD14RGc3Vrr3y+KQ4eI86WqbrfmYVm+asYTnC5lpqfzXHInmoi9OUMjTljomglqzGJpW5LtRXXXW0ZrfbNSSr2ucD1STAjs8AJbJPYVnCuVviF4yUpHyHfqHgulUOTXHujuUhikJjQjPGUxKPq2ccsZjyfXD49GqmrLmkSwXZiOoX3IKaLB8wFNFMinhh/pKkcvaecxCTLHv5lS0H4g2l5K/gbLGAUjfJbkFDdutKgAZ2AJTRQ7Uxw9khqWzHyVzVSGhZ0PprROK7NvMpfUs5SodBpWarftmJT7aUeCRdkVRMpM3wlLCGCP8MUNWoPFSSUy9iuU/Sf1gD01JR5HXpKhhXko2rltdmhoSy/JwqsBgr+SsEQYKQe0DCO2TJ8/xjIn3rCMiooS2EsIFJlMCAxQIFbvmkTBFvAKI5p1Dr9Qg1MmRAsOQ7ILN/oD2Sm3wATCYGGVTdlKdmwtLEXytRlJA0vZCBYS16FBbDxFU5oLPV0R3iIU9wFHQjMIyJ2O53UwU5bAjdiQX9thqo2y6hLJ4zCNioMOOYWDJRLZGzJA6Ku0uxbbeMwk9sNXrnF0/hUrALMsJDxJIM2neA/gFOO4PJDo0eXHzbsfw2rguR2TrDgsjUZnx4M9xBrMoElL38ITAzRJibcYY+Y8BqYuElyExmTuWRuy43h9qMph1YkKgUcGx8CMlAwcbJMIRjnEVuShtzRh4CIZ2tRwuszUzAaGPkK0Vlmh8Y3vJCJVE8oqbPI30RMGXv8EPCwtCTC7RUeqAGPhvVrVtfUN85fbSZwPc8cIRiJOA4pWStTZZSl+BI+rgYqqU8Zl8/fYjUw/UJuJllFsmgyUJ9xsoFkmYeYpo8PRer3liT3jYkrWVHxQyJy4KjeT4VP2b5c1TvPqrMVTUUe+YJL78yIzT0z4hroqhJNHXWV8I2pM9Lipu2bA99xHcscIt9EhrNXIt1Y1vY2l3VMb2DYyB56lmt4rq8tW6jsKPm52UzQPz3pIE86zCvsP9EptEzBMbpxCl9b1urNKZxPp+gvvIAC+PMPtd+883O9guyuL8t7bwtLwz/RAR09fHTigI6hLYtO5IDm6p+M/f51lQbR3Bdicg83PW+meDeCcZmbW8YN4ZC5nj7hL+6r5fu6L3SRbGuWOGHRttUWn0lCV3zYNbd1Ul8+FW/pJQZkaYDdm6m0VAEUPDCGrg+N/F3b2RamAtPi59q0hZyQbd/+UKNd5FmaZxUrdkqDfsP1vpOQ4g9Agq6eD/ZMgqbVMEV+UClNsRGZKCQbJ7HKi4emR7CK2eOB4l0WZSiZOc4X1794nFjmE75uyRM+Y1MPsUkLMq8PVn3HJquj2GTrQc40BsizXdMp3o+WRbd6h9viHUXhXMJgw03c/5asHDjPcsBcwASIi6v1YFlsL09sbu/K9WB7xZJ9VeO/s5QCD29QYDu5tYBzb7475bd0Wi3aPFH95LvD+E7VJsx6ZaKqU7xQmzCOxZH1YsUuj37PXIo0LrV1Z9g7z9e5FJmDKsmX73tx6WvzfJ3By35XeX6rWZuH4g23rnlAEOMsk0eJ4HvAhE1xza0OP+J5LV63Fc5e/pC6E6tOC1SdbpCq15xt2xocWj3Tseo3ljpyrG85NG9gqCTmWUxWCjWjN+LqMP5cU+bP+lin/Lmrrvh+MYk0TFpdZaJVKnMqPO7x1fIj4PGgs4aTxPNtBbo6FrcXgfrCo6MdVpvOgXh0tcP0Kt04FR6bBZz3y4+nwOPOMtc7Jkj9o7p9ICDRtlrWmwEJ3fVPeorp699NoS//Aw==</diagram></mxfile>
