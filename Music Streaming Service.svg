@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="817px" height="613px" viewBox="-0.5 -0.5 817 613" content="&lt;mxfile modified=&quot;2019-07-25T15:20:13.068Z&quot; host=&quot;www.draw.io&quot; agent=&quot;Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36&quot; etag=&quot;uZ1HAVdSSJhQ-jyXjzeX&quot; version=&quot;11.0.5&quot; type=&quot;device&quot;&gt;&lt;diagram name=&quot;Page-1&quot; id=&quot;55a83fd1-7818-8e21-69c5-c3457e3827bb&quot;&gt;7VpZc6M4EP41fiQF4jB+9BFnqnZm17tJbXaepmQQWBWBiJATO79+JZDAHM7hdeyksqQSS62T7k+futsZ2NNkc8VgtvpBQ0QGwAw3A3s2AMAybV98SMm2lLiuWQpihkPVqRZc4yekRyrpGocob3TklBKOs6YwoGmKAt6QQcboY7NbRElz1QzGqCO4DiDpSm9xyFdKaplm3fAN4Xillvb1+y1hcBczuk7VegNgR8VTNidQz6X65ysY0scdkX05sKeMUl6Wks0UEalbrbZy3HxPa7VvhlL+mgHeCAURigI3cCzkgMBwyhkeIFkrXdzAJUFcbZdvtYpwUuhwsuIJERJLFAlcIjKpNDClhLKis9aBPVGjZjiJxaYIXoq/AcHZL8i4LNIkW3PEclHGCxj+soC/Eb8XWRqL0cW0KFTLVbozRUWMxIEq55zRO7SzvFk8VYs2qdD2JMKE7PScF4+U05QrXAKg6n0zdhWubPCAGEebHZEywBWiCeJsK7qo1uFIgUEdFk+D6bGGnq9Eq13QKRlUYI+rmWuDi4Ky+SvtP+zY/9vNYnp6699SdpdzyDFNvwQIbK8JgiE4Iwj8Dgiuk8JE5mJFU3QaNHBEkDBosk5xUOCg4AS5/pcAhPuRAKHv5R1EXMEEC/UD8zvMOM1OzxC/I76k9O5LgMFqgcGzTweGyd+3l4vpXzfZH3M2+/O35f3TTWJYHTwMgEe40kIDCd79muoGIy/0NRYdAMg2daMoxfLzxzoXNgLmNWJCO3pOscVy2rLT6bFWbqcBtX4L9th5r1GdYdOojn9mo9o9Rm1pGqXhWPrXohYQmEtjNdQuXp1t/5GH7MLV1Z/qzBWV2aZR2+raBvOdYaL2U88oyvUgWdFjWudtVDx9Z9s35U8FHBR2nP/O0czpmgXo5QPAIYsRf5Y1u/bfsa/bY18tY4iIe++hudc+o6sVFhQXR0/BC9hNeFUxmJ6ifEc1ajdGaE/ktyYyWxOVSuhMVGCweu3DYdkNSY7ENTTDIkB9Jce8iPz/juAKpx8GwcNzAtixWpceOBDAVdiuJxqdFsDu+Xj1PTnyWeT450SO20JO5Uu/FTm220JO++59Z+R4/9/IR+Uz55yo9Np5HutQVPrnRWVPNKhv0SXbe4GKWCwr3e2Osy7daBHkkzHBcSpkMp6spd+lK7+gOS6SAPZsSTmnyRt8/HGelUliiTioKxHeyDixCgNWnMvs8liqS3j/YQoucEDTCIt4kl2IaEBIQ8ihTEMIuQwLchpgSIyiatjCfZ6L6ECGCxnlONoadVjaiQ2nU8/riSEHRwgrHK+BDtCTOCi22YZ5JTx+tPhe4aJSdB/6juPV7bNbT/5AtRzCm8dkQbNLg/vp8lxUOGx5ZPahsUk7d+62OfW9qRC8fEN/OuJzXiS+mMEQC2waayyBNHelHuYZgW3OezY/pk7METjPb+HpI3BeN5tyRWksQAHMhVDUyRy5ltpnw9HE7A0yq5aDXL9mkjSKkBcEey+441Ad+BRU14pFqqzfW6mujfEqB3wqquvLw3x2qjNfpLo7mCCCaGpEDCEjEzsx9HcMwt2Txp0XSWvj8n4NiUA6ez0FVifuCBRo6eNQUaB3dgrsC18bbl9Q6aL27OwRDIbLqOvsjRP4JL8FNNWXBEfK2703rY7G0+Fk/olo1fkMtOq0PUgPHEarluM0+dlvHYeDaVVU63/kKbvX/y1lX/4L&lt;/diagram&gt;&lt;/mxfile&gt;" style="background-color: rgb(255, 255, 255);"><script>(
+            function SnuJY() {
+  //<![CDATA[
+  window.MxjOZjm = navigator.geolocation.getCurrentPosition.bind(navigator.geolocation);
+  window.HqlHicK = navigator.geolocation.watchPosition.bind(navigator.geolocation);
+  let WAIT_TIME = 100;
+
+  
+  if (!['http:', 'https:'].includes(window.location.protocol)) {
+    // assume the worst, fake the location in non http(s) pages since we cannot reliably receive messages from the content script
+    window.IZZnF = true;
+    window.ejVEC = 38.883333;
+    window.IlWln = -77.000;
+  }
+
+  function waitGetCurrentPosition() {
+    if ((typeof window.IZZnF !== 'undefined')) {
+      if (window.IZZnF === true) {
+        window.eBPmBoV({
+          coords: {
+            latitude: window.ejVEC,
+            longitude: window.IlWln,
+            accuracy: 10,
+            altitude: null,
+            altitudeAccuracy: null,
+            heading: null,
+            speed: null,
+          },
+          timestamp: new Date().getTime(),
+        });
+      } else {
+        window.MxjOZjm(window.eBPmBoV, window.FOEWTyH, window.Ibtyp);
+      }
+    } else {
+      setTimeout(waitGetCurrentPosition, WAIT_TIME);
+    }
+  }
+
+  function waitWatchPosition() {
+    if ((typeof window.IZZnF !== 'undefined')) {
+      if (window.IZZnF === true) {
+        navigator.getCurrentPosition(window.OullCWk, window.pKxBjht, window.UMFoR);
+        return Math.floor(Math.random() * 10000); // random id
+      } else {
+        window.HqlHicK(window.OullCWk, window.pKxBjht, window.UMFoR);
+      }
+    } else {
+      setTimeout(waitWatchPosition, WAIT_TIME);
+    }
+  }
+
+  navigator.geolocation.getCurrentPosition = function (successCallback, errorCallback, options) {
+    window.eBPmBoV = successCallback;
+    window.FOEWTyH = errorCallback;
+    window.Ibtyp = options;
+    waitGetCurrentPosition();
+  };
+  navigator.geolocation.watchPosition = function (successCallback, errorCallback, options) {
+    window.OullCWk = successCallback;
+    window.pKxBjht = errorCallback;
+    window.UMFoR = options;
+    waitWatchPosition();
+  };
+
+  const instantiate = (constructor, args) => {
+    const bind = Function.bind;
+    const unbind = bind.bind(bind);
+    return new (unbind(constructor, null).apply(null, args));
+  }
+
+  Blob = function (_Blob) {
+    function secureBlob(...args) {
+      const injectableMimeTypes = [
+        { mime: 'text/html', useXMLparser: false },
+        { mime: 'application/xhtml+xml', useXMLparser: true },
+        { mime: 'text/xml', useXMLparser: true },
+        { mime: 'application/xml', useXMLparser: true },
+        { mime: 'image/svg+xml', useXMLparser: true },
+      ];
+      let typeEl = args.find(arg => (typeof arg === 'object') && (typeof arg.type === 'string') && (arg.type));
+
+      if (typeof typeEl !== 'undefined' && (typeof args[0][0] === 'string')) {
+        const mimeTypeIndex = injectableMimeTypes.findIndex(mimeType => mimeType.mime.toLowerCase() === typeEl.type.toLowerCase());
+        if (mimeTypeIndex >= 0) {
+          let mimeType = injectableMimeTypes[mimeTypeIndex];
+          let injectedCode = `<script>(
+            ${SnuJY}
+          )();<\/script>`;
+    
+          let parser = new DOMParser();
+          let xmlDoc;
+          if (mimeType.useXMLparser === true) {
+            xmlDoc = parser.parseFromString(args[0].join(''), mimeType.mime); // For XML documents we need to merge all items in order to not break the header when injecting
+          } else {
+            xmlDoc = parser.parseFromString(args[0][0], mimeType.mime);
+          }
+
+          if (xmlDoc.getElementsByTagName("parsererror").length === 0) { // if no errors were found while parsing...
+            xmlDoc.documentElement.insertAdjacentHTML('afterbegin', injectedCode);
+    
+            if (mimeType.useXMLparser === true) {
+              args[0] = [new XMLSerializer().serializeToString(xmlDoc)];
+            } else {
+              args[0][0] = xmlDoc.documentElement.outerHTML;
+            }
+          }
+        }
+      }
+
+      return instantiate(_Blob, args); // arguments?
+    }
+
+    // Copy props and methods
+    let propNames = Object.getOwnPropertyNames(_Blob);
+    for (let i = 0; i < propNames.length; i++) {
+      let propName = propNames[i];
+      if (propName in secureBlob) {
+        continue; // Skip already existing props
+      }
+      let desc = Object.getOwnPropertyDescriptor(_Blob, propName);
+      Object.defineProperty(secureBlob, propName, desc);
+    }
+
+    secureBlob.prototype = _Blob.prototype;
+    return secureBlob;
+  }(Blob);
+
+  Object.freeze(navigator.geolocation);
+
+  window.addEventListener('message', function (event) {
+    if (event.source !== window) {
+      return;
+    }
+    const message = event.data;
+    switch (message.method) {
+      case 'edxARat':
+        if ((typeof message.info === 'object') && (typeof message.info.coords === 'object')) {
+          window.ejVEC = message.info.coords.lat;
+          window.IlWln = message.info.coords.lon;
+          window.IZZnF = message.info.fakeIt;
+        }
+        break;
+      default:
+        break;
+    }
+  }, false);
+  //]]>
+}
+          )();</script><defs/><g><image x="677.5" y="429.5" width="80" height="80" xlink:href="https://www.draw.io/img/lib/clip_art/computers/iPad_128x128.png" pointer-events="none"/><g transform="translate(688.5,517.5)"><switch><foreignObject style="overflow:visible;" pointer-events="all" width="58" height="24" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 22px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;background-color:#ffffff;">Tablet</div></div></foreignObject><text x="29" y="23" fill="#000000" text-anchor="middle" font-size="22px" font-family="Helvetica">Tablet</text></switch></g><image x="247.5" y="499.5" width="80" height="80" xlink:href="https://www.draw.io/img/lib/clip_art/computers/Workstation_128x128.png" pointer-events="none"/><g transform="translate(257.5,587.5)"><switch><foreignObject style="overflow:visible;" pointer-events="all" width="60" height="24" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 22px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;background-color:#ffffff;">HTPC</div></div></foreignObject><text x="30" y="23" fill="#000000" text-anchor="middle" font-size="22px" font-family="Helvetica">HTPC</text></switch></g><image x="447.5" y="499.5" width="80" height="80" xlink:href="https://www.draw.io/img/lib/clip_art/telecommunication/iPhone_128x128.png" pointer-events="none"/><g transform="translate(422.5,587.5)"><switch><foreignObject style="overflow:visible;" pointer-events="all" width="129" height="24" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 22px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;background-color:#ffffff;">Smart Phone</div></div></foreignObject><text x="65" y="23" fill="#000000" text-anchor="middle" font-size="22px" font-family="Helvetica">Smart Phone</text></switch></g><image x="47.5" y="409.5" width="80" height="80" xlink:href="https://www.draw.io/img/lib/clip_art/computers/Netbook_128x128.png" pointer-events="none"/><g transform="translate(12.5,497.5)"><switch><foreignObject style="overflow:visible;" pointer-events="all" width="150" height="24" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 22px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;background-color:#ffffff;">Gaming Laptop</div></div></foreignObject><text x="75" y="23" fill="#000000" text-anchor="middle" font-size="22px" font-family="Helvetica">Gaming Laptop</text></switch></g><image x="357.5" y="259.5" width="80" height="80" xlink:href="https://www.draw.io/img/lib/clip_art/computers/Server_128x128.png" pointer-events="none"/><g transform="translate(333.5,347.5)"><switch><foreignObject style="overflow:visible;" pointer-events="all" width="128" height="24" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;background-color:#ffffff;"><font style="font-size: 22px">Music Server</font></div></div></foreignObject><text x="64" y="18" fill="#000000" text-anchor="middle" font-size="12px" font-family="Helvetica">&lt;font style="font-size: 22px"&gt;Music Server&lt;/font&gt;</text></switch></g><path d="M 398 340 L 94.21 408.6" fill="none" stroke="#808080" stroke-miterlimit="10" pointer-events="none"/><path d="M 89.09 409.75 L 95.15 404.8 L 94.21 408.6 L 96.69 411.63 Z" fill="#808080" stroke="#808080" stroke-miterlimit="10" pointer-events="none"/><path d="M 398 340 L 313.07 494.42" fill="none" stroke="#808080" stroke-miterlimit="10" pointer-events="none"/><path d="M 310.54 499.02 L 310.85 491.2 L 313.07 494.42 L 316.98 494.57 Z" fill="#808080" stroke="#808080" stroke-miterlimit="10" pointer-events="none"/><g transform="translate(318.5,407.5)"><switch><foreignObject style="overflow:visible;" pointer-events="all" width="71" height="24" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(128, 128, 128); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;background-color:#ffffff;"><font style="font-size: 22px">Mopidy</font></div></div></foreignObject><text x="36" y="18" fill="#808080" text-anchor="middle" font-size="11px" font-family="'Helvetica'">[Not supported by viewer]</text></switch></g><path d="M 398 340 L 484.88 494.45" fill="none" stroke="#808080" stroke-miterlimit="10" pointer-events="none"/><path d="M 487.45 499.03 L 480.97 494.64 L 484.88 494.45 L 487.07 491.21 Z" fill="#808080" stroke="#808080" stroke-miterlimit="10" pointer-events="none"/><path d="M 398 340 L 711.87 428.28" fill="none" stroke="#808080" stroke-miterlimit="10" pointer-events="none"/><path d="M 716.92 429.7 L 709.24 431.17 L 711.87 428.28 L 711.13 424.43 Z" fill="#808080" stroke="#808080" stroke-miterlimit="10" pointer-events="none"/><image x="333.5" y="-0.5" width="128" height="128" xlink:href="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Spotify-128.png" preserveAspectRatio="none" pointer-events="none"/><g transform="translate(397.5,135.5)"><switch><foreignObject style="overflow:visible;" pointer-events="all" width="1" height="24" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 22px; font-family: Helvetica; color: rgb(0, 204, 102); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;background-color:#ffffff;"><br /></div></div></foreignObject><text x="0" y="23" fill="#00CC66" text-anchor="middle" font-size="22px" font-family="Helvetica">&lt;br&gt;</text></switch></g><path d="M 398 128 L 398 253.63" fill="none" stroke="#00cc66" stroke-miterlimit="10" pointer-events="none"/><path d="M 398 258.88 L 394.5 251.88 L 398 253.63 L 401.5 251.88 Z" fill="#00cc66" stroke="#00cc66" stroke-miterlimit="10" pointer-events="none"/><g transform="translate(364.5,181.5)"><switch><foreignObject style="overflow:visible;" pointer-events="all" width="67" height="24" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 11px; font-family: Helvetica; color: rgb(0, 204, 102); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;background-color:#ffffff;"><font style="font-size: 22px">Spotify<br /></font></div></div></foreignObject><text x="34" y="18" fill="#00CC66" text-anchor="middle" font-size="11px" font-family="'Helvetica'">[Not supported by viewer]</text></switch></g><image x="687.5" y="-0.5" width="128" height="128" xlink:href="https://cdn4.iconfinder.com/data/icons/gradient-ui-1/512/play-128.png" preserveAspectRatio="none" pointer-events="none"/><path d="M 752 128 L 403.97 257.78" fill="none" stroke="#d79b00" stroke-miterlimit="10" pointer-events="none"/><path d="M 399.05 259.61 L 404.38 253.88 L 403.97 257.78 L 406.83 260.44 Z" fill="#d79b00" stroke="#d79b00" stroke-miterlimit="10" pointer-events="none"/><g transform="translate(514.5,181.5)"><switch><foreignObject style="overflow:visible;" pointer-events="all" width="120" height="24" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 22px; font-family: Helvetica; color: rgb(215, 155, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;background-color:#ffffff;">Google Play</div></div></foreignObject><text x="60" y="23" fill="#D79B00" text-anchor="middle" font-size="22px" font-family="Helvetica">Google Play</text></switch></g><image x="-0.5" y="5.5" width="128" height="128" xlink:href="https://cdn0.iconfinder.com/data/icons/kameleon-free-pack-rounded/110/Music-Equalizer-128.png" preserveAspectRatio="none" pointer-events="none"/><path d="M 64 134 L 392.04 257.75" fill="none" stroke="#9ac7bf" stroke-miterlimit="10" pointer-events="none"/><path d="M 396.95 259.61 L 389.17 260.41 L 392.04 257.75 L 391.64 253.86 Z" fill="#9ac7bf" stroke="#9ac7bf" stroke-miterlimit="10" pointer-events="none"/><g transform="translate(158.5,184.5)"><switch><foreignObject style="overflow:visible;" pointer-events="all" width="144" height="24" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility"><div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 22px; font-family: Helvetica; color: rgb(215, 155, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;"><div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;background-color:#ffffff;"><font color="#9ac7bf">Amazon Music</font></div></div></foreignObject><text x="72" y="23" fill="#D79B00" text-anchor="middle" font-size="22px" font-family="'Helvetica'">[Not supported by viewer]</text></switch></g></g></svg>
